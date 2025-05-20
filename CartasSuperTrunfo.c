@@ -14,7 +14,8 @@
         float area1, area2;
         float pib1, pib2;
         int numero1, numero2;
-        
+        float media, media1, media2, media3;
+
         // Professor tive bastante dificuldade de entender o desafio por isso a demora, 
         // mas estou feliz em conseguir e enxergar como é simples graças a sua explicação no forúm, obrigado!
         
@@ -47,6 +48,11 @@
         printf("Digite o Número de Pontos Turísticos");
         scanf("%d", &numero1);
 
+        //Nível aventureiro: calculando a densidade populacional e o pib per capita, somar e depois dividir
+
+        media = (populacao1 / area1);
+        media1 = (populacao1 / pib1);
+
         // Terceiro: Imprimir o código
 
         printf("Estado: %s", estado1);
@@ -56,8 +62,10 @@
         printf("Área em km²: %f \n", area1);
         printf("PIB: %f \n", pib1);
         printf("Pontos Turísticos: %d \n", numero1);
+        printf("A Densidade Populacional é: %.2f\n", media);
+        printf("O PIB per Capita é: %.2f\n", media1);
 
-        // Cadastro da segunda carta
+     // Cadastro da segunda carta
     
         printf("Carta 02:\n");
 
@@ -81,6 +89,9 @@
         printf("Digite o Número de Pontos Turísticos");
         scanf("%d", &numero2);
 
+         media2 = (populacao2 / area2);
+        media3 = (populacao2 / pib2);
+
         printf("Estado: %s", estado2);
         printf("Código da carta: %s \n", codigo2);
         printf("Nome da cidade: %s \n", nome2);
@@ -88,7 +99,9 @@
         printf("Área em km²: %f \n", area2);
         printf("PIB: %f \n", pib2);
         printf("Pontos Turísticos: %d \n", numero2);
-
+        printf("A Densidade Populacional é: %.2f\n", media2);
+        printf("O PIB per Capita é: %.2f\n", media3);
+        
 
 
 
