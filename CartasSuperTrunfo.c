@@ -45,7 +45,7 @@
         printf("Digite o PIB:\n");
         scanf("%f", &pib1);
 
-        printf("Digite o Número de Pontos Turísticos");
+        printf("Digite o Número de Pontos Turísticos:\n");
         scanf("%d", &numero1);
 
         //Nível aventureiro: calculando a densidade populacional e o pib per capita, somar e depois dividir
@@ -55,7 +55,7 @@
 
         // Terceiro: Imprimir o código
 
-        printf("Estado: %s", estado1);
+        printf("Estado: %s \n", estado1);
         printf("Código da carta: %s \n", codigo1);
         printf("Nome da cidade: %s \n", nome1);
         printf("População: %d \n", populacao1);
@@ -65,7 +65,7 @@
         printf("A Densidade Populacional é: %.2f\n", media);
         printf("O PIB per Capita é: %.2f\n", media1);
 
-     // Cadastro da segunda carta
+        // Cadastro da segunda carta
     
         printf("Carta 02:\n");
 
@@ -86,13 +86,12 @@
         printf("Digite o PIB:\n");
         scanf("%f", &pib2);
 
-        printf("Digite o Número de Pontos Turísticos");
+        printf("Digite o Número de Pontos Turísticos:\n");
         scanf("%d", &numero2);
-
-         media2 = (populacao2 / area2);
+        media2 = (populacao2 / area2);
         media3 = (populacao2 / pib2);
 
-        printf("Estado: %s", estado2);
+        printf("Estado: %s \n", estado2);
         printf("Código da carta: %s \n", codigo2);
         printf("Nome da cidade: %s \n", nome2);
         printf("População: %d \n", populacao2);
